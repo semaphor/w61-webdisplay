@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    semaphor -- helplessly fumbling with this project -- @semapher
 
 # THANKS
 
-    <name>
+    http://html5boilerplate.com/
 
 # TECHNOLOGY COLOPHON
 
