@@ -96,7 +96,36 @@ textarea {
 
 
 
+.menu {
+    width: 1024px;
+    height: 68px;
+    float: left;
+    border: 1px solid black;
+}
 
+.tab {
+    width: 1024px;
+    height: 700px;
+    float: left;
+    border: 1px solid black;
+ }
+
+.box {
+
+}
+
+.bus. {
+
+}
+
+.garbage {
+    float: right;
+    overflow: hidden;
+    width: 600px;
+
+}
+
+.clear     { clear:both; }
 
 
 
