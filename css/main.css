@@ -94,49 +94,36 @@ textarea {
    ========================================================================== */
 
 
-
-
 .menu {
     width: 1024px;
-    height: 68px;
-    float: left;
-    border: 1px solid black;
+    height: 67px;
+    border-bottom: 1px solid black;
+    border-right:  1px dashed black;
 }
 
-.tab {
+.tabs {
     width: 1024px;
     height: 700px;
-    float: left;
-    border: 1px solid black;
+    border-bottom: 1px dashed black;
+    border-right:  1px dashed black;
  }
 
 .box {
-
+    float: left;
 }
 
 .bus. {
-
+    float: left;
 }
 
 .garbage {
     float: right;
     overflow: hidden;
-    width: 600px;
-
 }
 
-.clear     { clear:both; }
-
-
-
-
-
-
-
-
-
-
-
+.clear     {
+    clear:both;
+}
 
 /* ==========================================================================
    Helper classes
