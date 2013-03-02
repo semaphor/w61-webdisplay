@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>w61 portal</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -15,26 +15,50 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="menu">
+                <p align="center"> START (F1) | Karte (F2) | blubber (F3) | blabber (F4) | Infos/Hilfe (F5)
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i> <span id="clock"></span> </i>
+                <br />
+                <small>&nbsp;&nbsp; Aktuell ist dies nur eine Skizze. Zwar funktionieren die eingebundenen Bus und Müllabfuhrpläne schon, aber sonst gibt's noch nix.</small></p>
+        </div>
+
+        <div class="tabs">
+
+                <div class="box">
+
+                <!-- Busabfahrtsanzeige -->
+                <iframe src="http://h.fs-et.de/1351" width="370px"  height="360px" scrolling="no" border="none"></iframe>
+                <iframe src="http://h.fs-et.de/1350" width="370px"  height="360px" scrolling="no" border="none"></iframe>
+                <!-- Müllkalender -->
+                <iframe src="https://www.google.com/calendar/embed?title=Zone%2010%2C%20Restm%C3%BCll%202-w%C3%B6chig&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=360&amp;wkst=2&amp;bgcolor=%23ffff33&amp;src=ljjivf9np37gdl24oqcu19ifb0%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FBerlin" width="260px" height="360px" scrolling="no" border="none"></iframe>
+
+                </div>
+
+                <div class="bus">
+                </div>
+                <div class="garbage">
+                </div>
+
+                <div class="clear"></div>
+
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/date_time.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        <script type="text/javascript">window.onload = myclock('clock');</script>
+
     </body>
 </html>
