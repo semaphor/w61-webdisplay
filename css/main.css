@@ -172,8 +172,16 @@ body {
     border: 2px inset grey;
 }
 
-.bus {
+#map {
+    width: 99%;
+    margin: auto;
 }
+
+#menulist a {
+   text-decoration: none;
+   color: #555555;
+}
+
 
 /* ==========================================================================
    Helper classes
