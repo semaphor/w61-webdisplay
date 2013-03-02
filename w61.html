@@ -15,7 +15,6 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script type="text/javascript" src="js/date_time.js"></script>
 
     </head>
     <body>
@@ -24,9 +23,9 @@
         <![endif]-->
 
         <div class="menu">
-                <p align="left">&nbsp;&nbsp; START (F1) | Karte (F2) | blubber (F3) | blabber (F4) | Infos/Hilfe (F5)
+                <p align="center"> START (F1) | Karte (F2) | blubber (F3) | blabber (F4) | Infos/Hilfe (F5)
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <i> <span id="clock"></span> </i> <script type="text/javascript">window.onload = myclock('clock');</script>
+                <i> <span id="clock"></span> </i>
                 <br />
                 <small>&nbsp;&nbsp; Aktuell ist dies nur eine Skizze. Zwar funktionieren die eingebundenen Bus und Müllabfuhrpläne schon, aber sonst gibt's noch nix.</small></p>
         </div>
@@ -51,6 +50,15 @@
                 <div class="clear"></div>
 
         </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/date_time.js"></script>
+
+        <script type="text/javascript">window.onload = myclock('clock');</script>
 
     </body>
 </html>
