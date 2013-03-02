@@ -20,7 +20,7 @@ textarea {
 
 body {
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1;
 }
 
 /*
@@ -93,36 +93,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-.menu {
+body {
     width: 1024px;
-    height: 67px;
-    border-bottom: 1px solid black;
+    height: 768px;
+    overflow: hidden;
+    background-color: #EEEEEE;
     border-right:  1px dashed black;
+    border-bottom:  1px dashed black;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 
-.tabs {
+.body {
+    margin: 0;
     width: 1024px;
-    height: 700px;
-    border-bottom: 1px dashed black;
-    border-right:  1px dashed black;
- }
+}
+
+#topbar {
+    height: 40px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#topbar p {
+    line-height: 80%;
+}
+
+#menu {
+    height: 40px;
+    width: 760px;
+    float: left;
+}
+
+#menulist {
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#indicator {
+    width: 274;
+    float: right;
+}
+
+#clock {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#tabs {
+    height: 690px;
+    border-bottom: 1px solid black;
+}
+
+#bottomline {
+    height: 26px;
+    margin-top: 5px;
+
+}
+
+#info {
+    font-size: 0.7em;
+    float: right;
+    padding-right: 5px;
+    padding-top:  5px;
+}
+
+.boxrow {
+    width: 99%;
+    margin: 0px auto;
+}
 
 .box {
     float: left;
+    margin: 2px auto;
+    border: 2px inset grey;
 }
 
-.bus. {
-    float: left;
-}
-
-.garbage {
-    float: right;
-    overflow: hidden;
-}
-
-.clear     {
-    clear:both;
+.bus {
 }
 
 /* ==========================================================================
