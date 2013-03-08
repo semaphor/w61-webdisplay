@@ -1,0 +1,3 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/bash /home/pi/w61-webdisplay/raspberrypi/autostart.sh
