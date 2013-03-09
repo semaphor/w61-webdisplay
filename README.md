@@ -2,7 +2,8 @@
 
 Web-based display for my flat, showing bus departures, garbage collection dates and hopefully a lot of more useful stuff for the live in our flat.
 
-This HTML is to be used / showed on a screen in the kitchen, driven by a [RaspberrPi](http://www.raspberrypi.org/). Maybe it will be also served to the Internet for having a look at it from outside, then best with a style optimized for mobile devices.
+This HTML is to be used / showed on a screen in the kitchen, driven by a [RaspberryPi](http://www.raspberrypi.org/). Maybe it will be also served to the Internet for having a look at it from outside, then best with a style optimized for mobile devices.
+For setting it up on a RaspberryPi have a look at the folder ´[raspberrypi]`(raspberrypi) and its **[readme](raspberrypi/README.md)**
 
 You got an ***idea for further information*** that should be presented? Just create a *[New Issue](https://github.com/semaphor/w61-webdisplay/issues)* to describe it. Any other “issues” are also very welcome ;-)
 
