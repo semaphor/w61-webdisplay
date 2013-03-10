@@ -2,7 +2,7 @@
 
 ***Web-based display for my flat, showing bus departures, garbage collection dates and hopefully a lot of more useful stuff.***
 
-You can have a **look at a demo** instance of this code here: [resolution1.net/w61-demo](http://resolution1.net/w61-demo)
+You can have a **look at a demo** instance of this code here: [resolution1.net/w61-webdisplay](http://resolution1.net/w61-webdisplay)
 
 This HTML is to be used / displayed on a screen in the kitchen, driven by a [RaspberryPi](http://www.raspberrypi.org/). Maybe lateron it will be also served to the Internet for having a look at it from outside, then best with a style optimized for mobile devices.
 For information on setting it up on a RaspberryPi have a look at the folder ´[raspberrypi]`(raspberrypi) and its **[readme](raspberrypi/README.md)**
