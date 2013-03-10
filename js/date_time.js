@@ -20,7 +20,7 @@ function myclock(id)
 	s = date.getSeconds();
 	if(s<10){s = "0"+s;}
 
-	result = ''+days[day]+', '+year+'-'+month+'-'+d+' &nbsp;'+h+':'+m+':'+s;
+	result = '<em>'+days[day]+', '+year+'-'+month+'-'+d+' &nbsp;'+h+':'+m+':'+s,'</em>';
 	//result = date.toGMTString();
 	//result = date.toString();
 

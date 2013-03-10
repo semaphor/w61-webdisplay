@@ -25,16 +25,16 @@
 
         <header id="topbar" class="body">
                 <nav id="menu">
-                        <span id="menulist">
-                                <a href="index.html"><strong>START</strong> (F1)</a> <strong>|</strong>
-                                <a href="map.html"><strong>Karte</strong> (F2)</a> <strong>|</strong>
-                                <strong>blubber</strong> (F3) <strong>|</strong>
-                                <strong>blabber</strong> (F4) <strong>|</strong>
-                                <a href="info.html"><strong>Infos/Hilfe</strong> (F5)</a>
-                        </span>
+                        <ul>
+				<li><a href="index.html">START</a></li>
+                                <li><a href="map.html">Karte</a></li>
+                                <li>blubber</li>
+                                <li>blabber</li>
+                                <li><a href="info.html">Infos/Hilfe</a></li>
+			</ul>
                 </nav>
                 <div id="indicator">
-                        <i><span id="clock"></span></i>
+                        <span id="clock"></span>
                 </div>
         </header>
 
@@ -43,8 +43,8 @@
                 <div class="boxrow">
 
                         <!-- Busabfahrtsanzeige -->
-                        <iframe class="box bus" src="http://h.fs-et.de/1351" width="370px"  height="360px" scrolling="no"></iframe>
-                        <iframe class="box bus" src="http://h.fs-et.de/1350" width="370px"  height="360px" scrolling="no"></iframe>
+                        <iframe seamless class="box bus" src="http://h.fs-et.de/1351" width="370px"  height="360px" scrolling="no"></iframe>
+                        <iframe seamless class="box bus" src="http://h.fs-et.de/1350" width="370px"  height="360px" scrolling="no"></iframe>
 
                         <!-- Müllkalender -->
                         <iframe class="box garbage" src="https://www.google.com/calendar/embed?title=Zone%2010%2C%20Restm%C3%BCll%202-w%C3%B6chig&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=360&amp;wkst=2&amp;bgcolor=%23ffff33&amp;src=ljjivf9np37gdl24oqcu19ifb0%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FBerlin" width="260px" height="360px" scrolling="no"></iframe>
@@ -61,7 +61,7 @@
         </section>
 
         <footer id="bottomline" class="body">
-                <span id="info" align="center"><small><i>Aktuell ist dies nur eine Skizze. Zwar funktionieren die eingebundenen Bus und Müllabfuhrpläne schon, aber sonst gibt's noch nix.</i></small></span>
+                <span id="info" align="center"><small><em>Aktuell ist dies eher eine Skizze. Zwar funktionieren die eingebundenen Bus- und Müllabfuhrpläne oder die Karte schon, aber eigentlich alles ist noch feinste <strong>work in progress</strong>.</em></small></span>
         </footer>
 
 
