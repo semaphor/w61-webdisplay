@@ -42,7 +42,7 @@ sleep $W61WAITFORMIDORI
 # so far i wasn't able to execute further commands when starting in "app mode":
 #$MIDORICMD -e Fullscreen --log-file=$W61MIDORICONF/midori.log --app $W61URL&
 
-echo "Loading page and closing other tabs(just to be shure)..."
+echo "Loading page and closing other tabs (just to be shure)."
 $MIDORICMD $W61URL
 $MIDORICMD -e TabCloseOther
 
@@ -50,20 +50,20 @@ $MIDORICMD -e TabCloseOther
 ## correct window settings:
 egrep -q 'last-window-state=MIDORI_WINDOW_FULLSCREEN' $W61MIDORICONF/config
 if [[ "$?" -ne 0 ]]; then
-	echo "Switching to fulscreen mode."
+	echo "Fullscreen: enabling."
 	$MIDORICMD -e Fullscreen
 else
-	echo "Fullscreen (already enabled)."
+	echo "Fullscreen: already enabled."
 fi
 
 $MIDORICMD -e Navigationbar
 sleep 1
 egrep -q 'show-navigationbar=false' $W61MIDORICONF/config
 if [[ "$?" -ne 0 ]]; then
-        echo "Hiding navigation bar."
+        echo "Navigation bar: hiding."
 	$MIDORICMD -e Navigationbar
 else   
-        echo "Navigation bar hidden (already)."
+        echo "Navigation bar: hidden (already)."
 fi
 
 
