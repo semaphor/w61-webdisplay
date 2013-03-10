@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
+        <script type="text/javascript" src="js/includes.js"></script>
+
     </head>
     <body>
 
@@ -23,20 +25,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <header id="topbar" class="body">
-                <nav id="menu">
-                        <span id="menulist">
-                                <a href="index.html"><strong>START</strong> (F1)</a> <strong>|</strong>
-                                <a href="map.html"><strong>Karte</strong> (F2)</a> <strong>|</strong>
-                                <strong>blubber</strong> (F3) <strong>|</strong>
-                                <strong>blabber</strong> (F4) <strong>|</strong>
-                                <a href="info.html"><strong>Infos/Hilfe</strong> (F5)</a>
-                        </span>
-                </nav>
-                <div id="indicator">
-                        <i><span id="clock"></span></i>
-                </div>
-        </header>
+        <script type="text/javascript"> include('topbar'); </script>
 
         <section id="tabs" class="body">
 
@@ -44,9 +33,7 @@
 
         </section>
 
-        <footer id="bottomline" class="body">
-                <span id="info" align="center"><small><i>Aktuell ist dies nur eine Skizze. Zwar funktionieren die eingebundenen Bus und Müllabfuhrpläne schon, aber sonst gibt's noch nix.</i></small></span>
-        </footer>
+        <script type="text/javascript"> include('bottomline'); </script>
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
